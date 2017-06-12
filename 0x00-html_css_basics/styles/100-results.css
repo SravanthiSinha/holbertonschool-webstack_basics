@@ -1,0 +1,115 @@
+#container{
+    max-width: 1000px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 auto;
+}
+article{
+    width: 300px;
+    background-color: #FFFFFF;
+    position: relative;
+    min-height: 110px;
+    margin: 10px;
+    border: #CCCCCC solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article img{
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+article h1{
+    font-size: 20px;
+}
+
+.stars{
+    display:flex;
+    flex-direction: row;
+    padding-top: 0;
+    color: white;
+}
+.empty{
+    height: 20px;
+    width: 21px;
+    background-color: #DDDDDD;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 2.5px;
+}
+.half{
+    background-color: #ffa632;
+    height: 20px;
+    width: 21px;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 2.5px;
+}
+.full{
+    background-color: #f0610b;
+    height: 20px;
+    width: 21px;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 2.5px;
+}
+
+.review_price{
+    padding: 0;
+    margin : 0;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 24px;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    color: #888888;
+
+}
+.contact_info{
+    padding: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 12px;
+    list-style-type: none;
+
+
+}
+.food_image{
+    padding-right: 10px;
+}
+.name_info{
+    padding:5px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.name_info h1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+}
+.description{
+    color:red;
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 100;
+}

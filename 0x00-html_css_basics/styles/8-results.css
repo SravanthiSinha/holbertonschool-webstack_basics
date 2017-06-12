@@ -1,0 +1,19 @@
+#container{
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 auto;
+}
+article{
+    width: 300px;
+    background-color: #FFFFFF;
+    position: relative;
+    min-height: 110px;
+    margin: 10px;
+    border: #CCCCCC solid 1px;
+    border-radius: 10px;
+}
+h1{
+text-indent: -9999px; /*to hide text */
+}

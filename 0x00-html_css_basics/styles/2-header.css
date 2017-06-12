@@ -1,0 +1,29 @@
+header {
+    background-color: #FF0000;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+header .container{
+    background-color: #00FF00;
+    height: 50px;
+    max-width: 1000px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+header .logo{
+    background-color: #0000FF;
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    left: 0px;
+}
+
+header .logo a{
+    height: 100%;
+    width: 100%;
+}

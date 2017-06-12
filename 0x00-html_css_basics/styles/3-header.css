@@ -1,0 +1,64 @@
+header {
+    background-color: #FF0000;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+header .container{
+    background-color: #00FF00;
+    height: 50px;
+    max-width: 1000px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+header .logo{
+    background-color: #0000FF;
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    left: 0px;
+}
+
+header .logo a{
+    height: 100%;
+    width: 100%;
+}
+
+header .search{
+    background-color: #550000;
+    height: 40px;
+    position: absolute;
+    left: 140px;
+    right: 220px;
+    margin: 5px 0px;
+    display: flex;
+}
+
+header .user{
+    background-color: #005500;
+    height: 100%;
+    width: 200px;
+    float: right;
+}
+
+.find{
+    background-color: #005555;
+    height: 100%;
+    width: 45%;
+}
+
+.location{
+    background-color: #009999;
+    height: 100%;
+    width: 45%;  
+}
+
+.ation{
+    background-color: #119911;
+    height: 100%;
+    width: 10%; 
+}

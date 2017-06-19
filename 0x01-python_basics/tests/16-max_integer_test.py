@@ -23,10 +23,10 @@ class TestMaxInteger(unittest.TestCase):
         self.assertIsNotNone(max_integer([1, 3, 4, 2]))
 
     def test_strings_list(self):
-        self.assertEqual(max_integer(["1", "2", "3", "4"]), "4")
-        self.assertEqual(max_integer(["1", "3", "4", "2"]), "4")
+        self.assertEqual(max_integer(["rose", "nuts", "cup", "boat"]), "rose")
+        self.assertEqual(max_integer(["po", "uasyd", "assa", "sasa"]), "uasyd")
 
-    def test_letters_strings_list(self):
+    def test_char_list(self):
         self.assertEqual(max_integer(["d", "b", "a", "r"]), "r")
         self.assertEqual(max_integer(["a", "l", "c", "r"]), "r")
 
@@ -34,17 +34,16 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([102.0, 20.0, 63.0, 44.0]), 102.0)
         self.assertEqual(max_integer([1.0, 3.0, 4.0, 2.0]), 4.0)
 
-    def test_big_values_list(self):
+    def test_large_values_list(self):
         self.assertEqual(max_integer([4110, 2080, 3050, 42730]), 42730)
         self.assertEqual(max_integer([100, 3200, 203]), 3200)
 
     def test_neg_list(self):
-        self.assertEqual(max_integer([-1, -2, -3, -4]), -1)
-        self.assertEqual(max_integer([-1, -3, -4, -2]), -1)
+        self.assertEqual(max_integer([-10, -28, -3, -1]), -1)
+        self.assertEqual(max_integer([-10, -38, -1, -20]), -1)
 
     def test_mixed_list(self):
-        self.assertEqual(max_integer(["-1", "1", "c", "m"]), "m")
-
+        self.assertEqual(max_integer(["1", "-91", "p", "88"]), "p")
 
 if __name__ == "__main__":
     unittest.main()

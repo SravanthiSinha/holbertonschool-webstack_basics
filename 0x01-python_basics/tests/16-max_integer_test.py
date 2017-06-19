@@ -45,5 +45,6 @@ class TestMaxInteger(unittest.TestCase):
     def test_mixed_list(self):
         self.assertEqual(max_integer(["1", "-91", "p", "88"]), "p")
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     unittest.main()

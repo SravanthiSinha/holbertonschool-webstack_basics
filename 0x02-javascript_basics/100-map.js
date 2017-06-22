@@ -1,7 +1,7 @@
 #!/usr/bin/node
-var list = require('./100-data').list;
+let list = require('./100-data').list;
 
-var newlist = list.map(function (num, index) {
+let newlist = list.map(function (num, index) {
   return num * index;
 });
 

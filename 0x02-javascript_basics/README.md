@@ -1,6 +1,20 @@
 # 0x02. Javascript Basics
 
-* Web Stack programming ― Warmup
+ Web Stack programming ― Warmup
+
+* Task 0: a script that prints 3 lines:
+
++ The first line: "C is fun"
++ The second line: "Python is cool"
++ The third line: "Javascript is amazing"
+
+```
+$ ./0-multi_languages.js 
+C is fun
+Python is cool
+Javascript is amazing
+$ 
+```
 
 UseFull Links:
 

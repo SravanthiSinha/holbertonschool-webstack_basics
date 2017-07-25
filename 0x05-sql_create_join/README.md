@@ -19,6 +19,10 @@
  * [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
  * [How To Use MySQL GRANT Statement To Grant Privileges To a User](http://www.mysqltutorial.org/mysql-grant.aspx)
  * [MySQL constraints](http://zetcode.com/databases/mysqltutorial/constraints/)
-* [SQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
+
+[SQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
+
+[The Seven Types of SQL Joins](https://blog.teamsql.io/the-seven-types-of-sql-joins-5bc72f69a609)
+
 * References:
 [MySQL 5.7 SQL Statement Syntax](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
